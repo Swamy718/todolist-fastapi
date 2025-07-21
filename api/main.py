@@ -1,5 +1,5 @@
 from fastapi import FastAPI,HTTPException
-from auth import router
+from .auth import router
 from fastapi.middleware.cors import CORSMiddleware
 
 app=FastAPI()
