@@ -1,6 +1,6 @@
 from fastapi import APIRouter,Depends,HTTPException,status
 from pydantic import BaseModel,Field 
-from database import collection
+from .database import collection
 from passlib.context import CryptContext
 from datetime import datetime,timezone,timedelta
 from jose import jwt,JWTError
